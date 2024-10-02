@@ -15,6 +15,7 @@
 		ED9F16782CAD69EB00949B40 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED9F16772CAD69EB00949B40 /* Base */; };
 		ED9F169C2CAD6B3600949B40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F169B2CAD6B3600949B40 /* SecondViewController.swift */; };
 		ED9F16A22CAD730800949B40 /* TestingViewControllerNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F16A12CAD730800949B40 /* TestingViewControllerNavigationTests.swift */; };
+		ED9F16A42CAD7C5B00949B40 /* SpyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F16A32CAD7C5B00949B40 /* SpyNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		ED9F167E2CAD69EB00949B40 /* TestingViewControllernavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingViewControllernavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9F169B2CAD6B3600949B40 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		ED9F16A12CAD730800949B40 /* TestingViewControllerNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewControllerNavigationTests.swift; sourceTree = "<group>"; };
+		ED9F16A32CAD7C5B00949B40 /* SpyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9F16A12CAD730800949B40 /* TestingViewControllerNavigationTests.swift */,
+				ED9F16A32CAD7C5B00949B40 /* SpyNavigationController.swift */,
 			);
 			path = TestingViewControllernavigationTests;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9F16A42CAD7C5B00949B40 /* SpyNavigationController.swift in Sources */,
 				ED9F16A22CAD730800949B40 /* TestingViewControllerNavigationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

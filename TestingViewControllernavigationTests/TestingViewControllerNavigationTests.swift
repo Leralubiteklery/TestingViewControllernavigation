@@ -36,4 +36,15 @@ final class TestingViewControllerNavigationTests: XCTestCase {
         
         waitForExpectations(timeout: 1.5)
     }
+    
+    func testNextViewButton_WhenTapped_SecondViewControllerIsPushedV2() {
+        sut.nextViewButton.sendActions(for: .touchUpInside)
+        
+        RunLoop.current.run(until: Date())
+        
+        guard let _ = navigationController.topViewController as? SecondViewController else {
+            XCTFail()
+            return
+        }
+    }
 }
